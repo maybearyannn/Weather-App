@@ -1,0 +1,14 @@
+.InfoBox {
+    text-align: center;
+}
+
+.cardContainer {
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.MuiCard-root:hover {
+    transform: translateY(-5px) scale(1.03);
+    transition: transform 0.2s;
+}
